@@ -1,32 +1,24 @@
 {
-    "siteTitle": "My Project Title",
-    "siteDescription": "This is the description of my project title",
-    "author": "John Doe",
-    "faviconUrl": "/assets/myfavicon.png",
-    "blogTitle": "Blog",
-    "blogDescription": "Here is the description of the blog part",
-    "productionUrl": "https://eleventy-libdoc.netlify.app",
+    "siteTitle": "Daniel Bodnar",
+    "siteDescription": "Software engineer and technology enthusiast. Building things on the web.",
+    "author": "Daniel Bodnar",
+    "faviconUrl": "/assets/favicon.png",
+    "blogTitle": "Writing",
+    "blogDescription": "Thoughts on software, technology, and building things.",
+    "productionUrl": "https://bodnar.dev",
     "customLinks": [
         {
-            "url": "/feed.xml",
-            "text": "Atom feed"
-        },
-        {
-            "url": "https://github.com/ita-design-system/eleventy-libdoc",
+            "url": "https://github.com/danielbodnar",
             "text": "GitHub"
         },
         {
-            "url": "#",
-            "text": "Bluesky"
-        },
-        {
-            "url": "#",
+            "url": "https://linkedin.com/in/danielbodnar",
             "text": "LinkedIn"
         },
         {
-            "url": "#",
-            "text": "CodePen"
+            "url": "/feed.xml",
+            "text": "RSS"
         }
     ],
-    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
+    "editThisPageRootUrl": "https://github.com/danielbodnar/bodnar.dev/blob/main"
 }
