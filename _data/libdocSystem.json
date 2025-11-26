@@ -28,7 +28,7 @@
             }
         }
     },
-    "productionUrl": "eleventy-libdoc.netlify.app",
+    "productionUrl": "bodnar.dev",
     "preferences": {
         "colorSchemes": {
             "choices": [

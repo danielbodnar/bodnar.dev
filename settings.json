@@ -1,10 +1,10 @@
 {
     "siteTitle": "Daniel Bodnar",
-    "siteDescription": "Software engineer and technology enthusiast. Building things on the web.",
+    "siteDescription": "Platform Engineer, Systems Architect, SRE, and Linux Evangelist with 30+ years of experience building scalable infrastructure and elegant solutions.",
     "author": "Daniel Bodnar",
     "faviconUrl": "/assets/favicon.png",
     "blogTitle": "Writing",
-    "blogDescription": "Thoughts on software, technology, and building things.",
+    "blogDescription": "Thoughts on infrastructure, systems engineering, DevOps, and building things that scale.",
     "productionUrl": "https://bodnar.dev",
     "customLinks": [
         {
@@ -14,6 +14,14 @@
         {
             "url": "https://linkedin.com/in/danielbodnar",
             "text": "LinkedIn"
+        },
+        {
+            "url": "https://bodnar.sh",
+            "text": "bodnar.sh"
+        },
+        {
+            "url": "mailto:daniel@bodnar.sh",
+            "text": "Email"
         },
         {
             "url": "/feed.xml",

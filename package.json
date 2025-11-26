@@ -1,17 +1,30 @@
 {
-  "name": "eleventy-libdoc",
-  "version": "0.11.0",
-  "description": "An Eleventy starter project to craft slick and responsive documentation",
+  "name": "bodnar.dev",
+  "version": "1.0.0",
+  "description": "Personal website and portfolio for Daniel Bodnar - Platform Engineer, Systems Architect, and SRE",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
     "dev": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "eleventy",
+    "11ty",
+    "platform-engineering",
+    "sre",
+    "devops"
+  ],
+  "author": "Daniel Bodnar <daniel@bodnar.sh>",
+  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbodnar/bodnar.dev"
+  },
+  "homepage": "https://bodnar.dev",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.1",
