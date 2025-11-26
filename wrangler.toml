@@ -1,0 +1,5 @@
+name = "bodnar-dev"
+pages_build_output_dir = "_site"
+
+[build]
+command = "npm run build"
