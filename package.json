@@ -1,5 +1,5 @@
 {
-  "name": "bodnar.dev",
+  "name": "daniel.bodnar.sh",
   "version": "1.0.0",
   "description": "Personal website and portfolio for Daniel Bodnar - Platform Engineer, Systems Architect, and SRE",
   "main": "index.js",
@@ -22,9 +22,9 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielbodnar/bodnar.dev"
+    "url": "https://github.com/danielbodnar/daniel.bodnar.sh"
   },
-  "homepage": "https://bodnar.dev",
+  "homepage": "https://daniel.bodnar.sh",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.1",

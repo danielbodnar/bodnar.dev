@@ -10,7 +10,7 @@
         "activeAnchorClass": ""
     },
     "widthSidebar": 300,
-    "widthContent": 700,
+    "widthContent": 1200,
     "icomoonIconSize": 32,
     "pluginsParameters": {
         "eleventyImageTransform": {
@@ -28,7 +28,7 @@
             }
         }
     },
-    "productionUrl": "bodnar.dev",
+    "productionUrl": "daniel.bodnar.sh",
     "preferences": {
         "colorSchemes": {
             "choices": [

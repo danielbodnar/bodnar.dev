@@ -1,0 +1,68 @@
+/* Custom styles for bodnar.dev - Fluid content layout */
+
+/* Override content width constraints for fluid layout */
+:root {
+    --ita-widths-content: 100%;
+    --ita-widths-main-container-max: none;
+}
+
+/* Make main content fluid */
+main > * {
+    max-width: calc(100% - 2 * var(--ita-spacings-5));
+}
+
+/* Adjust container for fluid layout on larger screens */
+@media (min-width: 960px) {
+    main > * {
+        max-width: calc(100% - 2 * var(--ita-spacings-9));
+    }
+    
+    /* Keep tables readable */
+    main table {
+        max-width: 100%;
+    }
+    
+    /* Adjust video container */
+    main video {
+        max-width: 100%;
+    }
+    
+    /* Floating TOC position adjustment for fluid layout */
+    #floating_toc_container {
+        right: var(--ita-spacings-5);
+    }
+    
+    /* GTT button position adjustment */
+    #gtt_btn {
+        right: var(--ita-spacings-5);
+    }
+}
+
+/* Ensure proper readability for text content */
+main p,
+main li,
+main dd,
+main blockquote {
+    max-width: 80ch; /* Optimal reading width */
+}
+
+/* Allow full width for code blocks, tables, and images */
+main > pre,
+main > .table-wrapper,
+main > figure,
+main > picture,
+main > iframe,
+main > aside {
+    max-width: calc(100% - 2 * var(--ita-spacings-5));
+}
+
+@media (min-width: 960px) {
+    main > pre,
+    main > .table-wrapper,
+    main > figure,
+    main > picture,
+    main > iframe,
+    main > aside {
+        max-width: calc(100% - 2 * var(--ita-spacings-9));
+    }
+}

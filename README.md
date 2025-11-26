@@ -1,4 +1,4 @@
-# bodnar.dev
+# daniel.bodnar.sh
 
 Personal website and portfolio for Daniel Bodnar - Platform Engineer, Systems Architect, SRE, and Linux Evangelist.
 
@@ -27,7 +27,7 @@ This site is built with [Eleventy](https://www.11ty.dev/) (11ty), a simple and p
 
 ```bash
 # Clone the repository
-git clone https://github.com/danielbodnar/bodnar.dev
+git clone https://github.com/danielbodnar/daniel.bodnar.sh
 
 # Install dependencies
 bun install
@@ -65,7 +65,7 @@ Edit `settings.json` to customize:
 ## Project Structure
 
 ```
-bodnar.dev/
+daniel.bodnar.sh/
 ├── _data/              # Global data files
 ├── _includes/          # Layout templates
 ├── core/               # Core assets (CSS, JS, fonts)
@@ -87,7 +87,7 @@ All page content is sourced from:
 - **Email:** [daniel@bodnar.sh](mailto:daniel@bodnar.sh)
 - **GitHub:** [@danielbodnar](https://github.com/danielbodnar)
 - **LinkedIn:** [danielbodnar](https://linkedin.com/in/danielbodnar)
-- **Website:** [bodnar.sh](https://bodnar.sh)
+- **Website:** [daniel.bodnar.sh](https://daniel.bodnar.sh)
 
 ## License
 
