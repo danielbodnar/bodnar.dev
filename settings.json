@@ -1,32 +1,28 @@
 {
-    "siteTitle": "Daniel Bodnar",
-    "siteDescription": "Platform Engineer, Systems Architect, SRE, and Linux Evangelist with 30+ years of experience building scalable infrastructure and elegant solutions.",
-    "author": "Daniel Bodnar",
-    "faviconUrl": "/assets/favicon.png",
-    "blogTitle": "Writing",
-    "blogDescription": "Thoughts on infrastructure, systems engineering, DevOps, and building things that scale.",
-    "productionUrl": "https://daniel.bodnar.sh",
-    "customLinks": [
-        {
-            "url": "https://github.com/danielbodnar",
-            "text": "GitHub"
-        },
-        {
-            "url": "https://linkedin.com/in/danielbodnar",
-            "text": "LinkedIn"
-        },
-        {
-            "url": "https://bodnar.sh",
-            "text": "bodnar.sh"
-        },
-        {
-            "url": "mailto:daniel@bodnar.sh",
-            "text": "Email"
-        },
-        {
-            "url": "/feed.xml",
-            "text": "RSS"
-        }
-    ],
-    "editThisPageRootUrl": "https://github.com/danielbodnar/daniel.bodnar.sh/blob/main"
+  "siteTitle": "Daniel Bodnar",
+  "siteDescription": "Platform Engineer, Systems Architect, SRE, and Linux Evangelist with 30+ years of experience building scalable infrastructure and elegant solutions.",
+  "author": "Daniel Bodnar",
+  "faviconUrl": "/assets/favicon.png",
+  "blogTitle": "Writing",
+  "blogDescription": "Thoughts on infrastructure, systems engineering, DevOps, and building things that scale.",
+  "productionUrl": "https://daniel.bodnar.sh",
+  "customLinks": [
+    {
+      "url": "https://github.com/danielbodnar",
+      "text": "GitHub"
+    },
+    {
+      "url": "https://bodnar.sh",
+      "text": "bodnar.sh"
+    },
+    {
+      "url": "mailto:daniel@bodnar.sh",
+      "text": "Email"
+    },
+    {
+      "url": "/feed.xml",
+      "text": "RSS"
+    }
+  ],
+  "editThisPageRootUrl": "https://github.com/danielbodnar/bodnar.dev/blob/main"
 }
