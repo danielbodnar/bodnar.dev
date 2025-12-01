@@ -27,7 +27,7 @@ This site is built with [Eleventy](https://www.11ty.dev/) (11ty), a simple and p
 
 ```bash
 # Clone the repository
-git clone https://github.com/danielbodnar/daniel.bodnar.sh
+git clone https://github.com/danielbodnar/bodnar.dev
 
 # Install dependencies
 bun install
