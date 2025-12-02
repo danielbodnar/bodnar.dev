@@ -1,5 +1,5 @@
 name = "bodnar-dev"
 compatibility_date = "2025-11-26"
-pages_build_output_dir = "_site"
-[env]
-production = {}
+[assets]
+directory = "./_site/"
+not_found_handling = "404-page"
