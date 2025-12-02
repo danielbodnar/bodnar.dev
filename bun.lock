@@ -5,9 +5,10 @@
     "": {
       "name": "eleventy-libdoc",
       "dependencies": {
-        "@11ty/eleventy": "^3.0.0",
-        "@11ty/eleventy-img": "^6.0.1",
-        "@11ty/eleventy-navigation": "^0.3.5",
+        "@11ty/eleventy": "^3.1.2",
+        "@11ty/eleventy-fetch": "^5.1.0",
+        "@11ty/eleventy-img": "^6.0.4",
+        "@11ty/eleventy-navigation": "^1.0.4",
         "@11ty/eleventy-plugin-rss": "^2.0.4",
         "sharp": "^0.33.5",
       },
@@ -26,7 +27,7 @@
 
     "@11ty/eleventy-img": ["@11ty/eleventy-img@6.0.4", "", { "dependencies": { "@11ty/eleventy-fetch": "^5.1.0", "@11ty/eleventy-utils": "^2.0.7", "brotli-size": "^4.0.0", "debug": "^4.4.0", "entities": "^6.0.0", "image-size": "^1.2.1", "p-queue": "^6.6.2", "sharp": "^0.33.5" } }, "sha512-jSy9BmubVs0mN76dcXWfSYDgRU+1+/rq/SxUR3MgIvTUAJRDop5pFW+Z1f56CDcOlEHaiPqHgnfOlqRmJvXl7g=="],
 
-    "@11ty/eleventy-navigation": ["@11ty/eleventy-navigation@0.3.5", "", { "dependencies": { "dependency-graph": "^0.11.0" } }, "sha512-4aKW5aIQDFed8xs1G1pWcEiFPcDSwZtA4IH1eERtoJ+Xy+/fsoe0pzbDmw84bHZ9ACny5jblENhfZhcCxklqQw=="],
+    "@11ty/eleventy-navigation": ["@11ty/eleventy-navigation@1.0.4", "", { "dependencies": { "dependency-graph": "^1.0.0" } }, "sha512-FgIfKiFP1e3plQdIvSRph1tFV44bbCXcYs+AWcwnsfrn5I6Gf0t3hBq9IrR4JdnZ06hlEKq8qRbnbb0nfEZg3A=="],
 
     "@11ty/eleventy-plugin-bundle": ["@11ty/eleventy-plugin-bundle@3.0.6", "", { "dependencies": { "@11ty/eleventy-utils": "^2.0.2", "debug": "^4.4.0", "posthtml-match-helper": "^2.0.3" } }, "sha512-wlEIMa1SEe6HE6ZyREEnPQiTw72337a2MPkyn0D1IzrqHrKU9euB17mv27LnnnyKvMJamCCqtU0985F5yyDL8g=="],
 
@@ -349,8 +350,6 @@
     "urlpattern-polyfill": ["urlpattern-polyfill@10.1.0", "", {}, "sha512-IGjKp/o0NL3Bso1PymYURCJxMPNAf/ILOpendP9f5B6e1rTJgdgiOvgfoT8VxCAdY+Wisb9uhGaJJf3yZ2V9nw=="],
 
     "ws": ["ws@8.18.3", "", { "peerDependencies": { "bufferutil": "^4.0.1", "utf-8-validate": ">=5.0.2" }, "optionalPeers": ["bufferutil", "utf-8-validate"] }, "sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg=="],
-
-    "@11ty/eleventy-navigation/dependency-graph": ["dependency-graph@0.11.0", "", {}, "sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg=="],
 
     "anymatch/picomatch": ["picomatch@2.3.1", "", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
 

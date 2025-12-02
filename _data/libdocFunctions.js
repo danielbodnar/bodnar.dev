@@ -209,6 +209,15 @@ export default {
                 //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
                 //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
             });
+        },
+        pages: function(collectionsApi) {
+            return collectionsApi.getAll()
+                .filter((item) => item.data.eleventyNavigation !== undefined)
+                .sort((a, b) => {
+                    const orderA = a.data.eleventyNavigation.order || 0;
+                    const orderB = b.data.eleventyNavigation.order || 0;
+                    return orderA - orderB;
+                });
         }
     },
     shortcodes: {

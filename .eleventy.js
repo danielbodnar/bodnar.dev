@@ -1,14 +1,13 @@
 // START 11TY imports
-import eleventyNavigationPlugin             from "@11ty/eleventy-navigation";
-import { InputPathToUrlTransformPlugin }    from "@11ty/eleventy";
-import { eleventyImageTransformPlugin }     from "@11ty/eleventy-img";
-import { EleventyHtmlBasePlugin }           from "@11ty/eleventy";
-import pluginRss                            from "@11ty/eleventy-plugin-rss";
+import { EleventyHtmlBasePlugin, InputPathToUrlTransformPlugin } from "@11ty/eleventy";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import pluginRss from "@11ty/eleventy-plugin-rss";
 // END 11TY imports
 
 // START LibDoc imports
-import libdocConfig                         from "./_data/libdocConfig.js";
-import libdocFunctions                      from "./_data/libdocFunctions.js";
+import libdocConfig from "./_data/libdocConfig.js";
+import libdocFunctions from "./_data/libdocFunctions.js";
 // END LibDoc imports
 
 export default function(eleventyConfig) {
@@ -34,6 +33,7 @@ export default function(eleventyConfig) {
     // START COLLECTIONS
     eleventyConfig.addCollection("myTags", libdocFunctions.collections.myTags);
     eleventyConfig.addCollection("postsByDateDescending", libdocFunctions.collections.postsByDateDescending);
+    eleventyConfig.addCollection("pages", libdocFunctions.collections.pages);
     // END COLLECTIONS
 
     // START SHORTCODES

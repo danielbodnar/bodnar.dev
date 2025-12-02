@@ -10,67 +10,67 @@ const require = createRequire(import.meta.url);
 // import libdocPackage from "../package.json" with { "type": "json" };
 const libdocMessages = require("./libdocMessages.json");
 const libdocPackage = require("../package.json");
+
 // END JSON IMPORT WORKAROUND
 
 import libdocConfig from "./libdocConfig.js";
 
 export default {
-    version: function() {
-        return libdocPackage.version
-    },
-    // environment: process.env.MY_ENVIRONMENT || "development",
-    HTMLEncode: function(str) {
-        // https://stackoverflow.com/a/784765
-        str = [...str];
-        //    ^ es20XX spread to Array: keeps surrogate pairs
-        let i = str.length, aRet = [];
-        
-        while (i--) {
-            var iC = str[i].codePointAt(0);
-            if (iC < 65 || iC > 127 || (iC>90 && iC<97)) {
-                aRet[i] = '&#'+iC+';';
-            } else {
-                aRet[i] = str[i];
-            }
-        }
-        return aRet.join('');
-    },
-    slugify: function(str) {
-        // https://dev.to/bybydev/how-to-slugify-a-string-in-javascript-4o9n
-        str = str.replace(/^\s+|\s+$/g, ''); // trim leading/trailing white space
-        str = str.toLowerCase(); // convert string to lowercase
-        str = str.replace(/[^a-z0-9 -]/g, '') // remove any non-alphanumeric characters
-                    .replace(/\s+/g, '-') // replace spaces with hyphens
-                    .replace(/-+/g, '-'); // remove consecutive hyphens
-        return str;
-    },
-    extractHtmlTagsFromString: function(string, htmlTagsListArray) {
-        // https://stackoverflow.com/a/65725198
-        const htmlTagsFound = [];
-        string.replace(/<([a-zA-Z][a-zA-Z0-9_-]*)\b[^>]*>(.*?)<\/\1>/g, function(m,m1,m2) {
-            if (htmlTagsListArray.includes(m1)) {
-                // write data to result object
-                htmlTagsFound.push({
-                    tagName: m1,
-                    value: m2
-                });
-            }
+  version: () => libdocPackage.version,
+  // environment: process.env.MY_ENVIRONMENT || "development",
+  HTMLEncode: (str) => {
+    // https://stackoverflow.com/a/784765
+    str = [...str];
+    //    ^ es20XX spread to Array: keeps surrogate pairs
+    let i = str.length,
+      aRet = [];
+
+    while (i--) {
+      var iC = str[i].codePointAt(0);
+      if (iC < 65 || iC > 127 || (iC > 90 && iC < 97)) {
+        aRet[i] = `&#${iC};`;
+      } else {
+        aRet[i] = str[i];
+      }
+    }
+    return aRet.join("");
+  },
+  slugify: (str) => {
+    // https://dev.to/bybydev/how-to-slugify-a-string-in-javascript-4o9n
+    str = str.replace(/^\s+|\s+$/g, ""); // trim leading/trailing white space
+    str = str.toLowerCase(); // convert string to lowercase
+    str = str
+      .replace(/[^a-z0-9 -]/g, "") // remove any non-alphanumeric characters
+      .replace(/\s+/g, "-") // replace spaces with hyphens
+      .replace(/-+/g, "-"); // remove consecutive hyphens
+    return str;
+  },
+  extractHtmlTagsFromString: (string, htmlTagsListArray) => {
+    // https://stackoverflow.com/a/65725198
+    const htmlTagsFound = [];
+    string.replace(/<([a-zA-Z][a-zA-Z0-9_-]*)\b[^>]*>(.*?)<\/\1>/g, (m, m1, m2) => {
+      if (htmlTagsListArray.includes(m1)) {
+        // write data to result object
+        htmlTagsFound.push({
+          tagName: m1,
+          value: m2,
         });
-        return htmlTagsFound
-    },
-    generateRandomId: function(length) {
-        const charactersList = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        let id = '';
-        if (typeof length != 'number') length = 8;
-        for (let index = 0; index < length; index++) {
-            const randomIndex = Math.floor(Math.random() * charactersList.length);
-            id += charactersList[randomIndex];
-        }
-        return id;
-    },
-    templates: {
-        sandbox: function({iframeAttribute, iframeCommands, title, code, enableSwitchId}) {
-            return `
+      }
+    });
+    return htmlTagsFound;
+  },
+  generateRandomId: (length) => {
+    const charactersList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let id = "";
+    if (typeof length != "number") length = 8;
+    for (let index = 0; index < length; index++) {
+      const randomIndex = Math.floor(Math.random() * charactersList.length);
+      id += charactersList[randomIndex];
+    }
+    return id;
+  },
+  templates: {
+    sandbox: ({ iframeAttribute, iframeCommands, title, code, enableSwitchId }) => `
                 <aside class="d-flex | sandbox"
                     fd-column="xs,sm"
                     gap-2="xs,sm"
@@ -166,7 +166,6 @@ export default {
                             <li>${libdocMessages.height[libdocConfig.lang]}: <span class="sandbox__monitor__iframe_height">-</span>px</li>
                         </ul>
                     </div>
-                </aside>`;
-        }
-    }
+                </aside>`,
+  },
 };
