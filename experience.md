@@ -107,7 +107,7 @@ Directly responsible for identifying capacity and efficiency constraints, as wel
 
 **Security:** nmap, metasploit, wazuh, openvas/nessus, trivy, vuls.io, wireguard, teleport, PKI tools
 
-### SysAdmin
+### Linux SysAdmin 
 
 Directly responsible for and fully owned the management, maintenance, and support of all internal and external IT infrastructure, including all servers, networking, VPNs, and workstations.
 
@@ -123,7 +123,7 @@ Directly responsible for and fully owned the management, maintenance, and suppor
 - Implemented customized Windows PE & Linux based iPXE/network boot servers to streamline provisioning VMs and workstations
 - Engineered secure, resilient reverse-tunnels & storage services to allow efficient imaging and virtualization of external client devices
 
-### Technologies Used
+#### Technologies Used
 
 `Kubernetes` `PostgreSQL` `MySQL` `SQLite` `GitLab` `Docker` `Proxmox` `ZFS` `InfiniBand` `Ansible` `Terraform` `Wireguard` `VPN` `VLAN` `Monitoring` `Observability` `DevOps` `Infrastructure-as-Code`
 
