@@ -47,22 +47,6 @@ I struggle with the mundane, routine maintenance period that comes after impleme
 
 ---
 
-## Homelab
-
-I have a really nice homelab that serves as a safe non-production playground to learn, explore, and experiment on:
-
-| Component | Specs |
-|-----------|-------|
-| **Primary Server** | HPE DL385 Gen10 |
-| **CPU** | Dual AMD Epyc 7601 |
-| **RAM** | 512GB |
-| **Storage** | 30TB NVMe |
-| **Development Server** | HPE DL380 Gen8 |
-
-All hardware cherry-picked off eBay for cost-effective high-performance computing.
-
----
-
 ## Contact Information
 
 | Method | Details |
@@ -79,9 +63,7 @@ All hardware cherry-picked off eBay for cost-effective high-performance computin
 *Open to exciting opportunities in Platform Engineering, Cloud Architecture, Site Reliability Engineering, and Systems Design*
 
 - [View my Experience](/experience/)
-- [Check out my Skills](/skills/)
 - [Download my Resume](/resume/)
-- [See my Tech Stacks](/tech-stacks/)
 
 ---
 
