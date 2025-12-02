@@ -27,38 +27,15 @@ I have an insatiable drive to solve complex challenges. My greatest strength is 
 
 > In my experience, in order to truly know what a tool does well, you must first understand what it does not do well.
 
----
-
-## Quick Stats
-
-| Metric | Value |
-|--------|-------|
-| Years of Experience | 30+ |
-| Completed Projects | 200+ |
-| Technologies Mastered | 100+ |
-| Uptime Commitment | 99.9% |
-
----
-
-## Core Competencies
-
-- **Kubernetes** - Container orchestration at scale
-- **Docker** - Containerization and microservices
-- **AWS** - Cloud architecture and services
-- **Linux** - Systems administration and automation
-- **PostgreSQL** - Database management and optimization
-- **Terraform** - Infrastructure as Code
-- **GitLab CI/CD** - DevOps pipelines and automation
-- **Prometheus & Grafana** - Observability and monitoring
 
 ---
 
 ## Get in Touch
 
-- [GitHub](https://github.com/danielbodnar) - Where I share my work
-- [LinkedIn](https://linkedin.com/in/danielbodnar) - Let's connect
-- [Email](mailto:daniel@bodnar.sh) - Say hello
-- [bodnar.sh](https://bodnar.sh) - My portfolio site
+- [GitHub](https://github.com/danielbodnar)
+- [Email](mailto:daniel@bodnar.sh)
+- [bodnar.sh](https://bodnar.sh)
+- [daniel.bodnar.sh](https://daniel.bodnar.sh) - this site
 
 ---
 
@@ -66,6 +43,4 @@ I have an insatiable drive to solve complex challenges. My greatest strength is 
 
 - [About Me](/about/) - Full professional profile
 - [Experience](/experience/) - Detailed work history
-- [Skills](/skills/) - Technical expertise breakdown
 - [Resume](/resume/) - Downloadable CV
-- [Tech Stacks](/tech-stacks/) - My preferred tools and technologies
