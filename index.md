@@ -9,11 +9,11 @@ permalink: index.html
 
 **Platform Engineer | Systems Architect | SRE | Linux Evangelist**
 
-Self-motivated, passionate, and incredibly curious automator with **30 years of full-stack software engineering** and **22+ years of infrastructure/systems engineering experience**. I am constantly growing, evolving, and improving. My curiosity and innovation thrive on the cutting edge, but my seasoned experience anchors my solutions to the boringly-stable.
+Self-motivated, passionate, and incredibly curious automator with **30 years of full-stack software engineering** and **22+ years of infrastructure/systems engineering experience**. I am constantly growing, evolving, and improving. My curiosity and innovation thrive on the cutting edge, but I've caused enough production outages to know when the situation calls for anchoring to the boringly-stable.
 
 ---
 
-## What I Bring
+## What I Bring To The Table
 
 I bring **three decades of cross-domain expertise** spanning the entire software engineering ecosystem—from low-level systems programming and infrastructure automation to application development and enterprise architecture. This breadth enables me to identify solutions and optimize systems in ways that specialists confined to a single domain cannot.
 
