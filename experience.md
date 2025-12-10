@@ -46,7 +46,7 @@ Built on co-located custom bare metal servers:
 
 ### Technologies Used
 
-`Kubernetes` `Docker` `Linux` `Bare Metal` `ZFS` `NVMe` `Grafana` `Prometheus` `VictoriaMetrics` `NetData` `Jaeger` `Load Balancing` `Multi-cloud` `Hybrid Infrastructure` `E2E Encryption`
+`Proxmox`, `Kubernetes` `Docker` `Linux` `Bare Metal` `ZFS` `NVMe` `Grafana` `Prometheus` `VictoriaMetrics` `NetData` `Jaeger` `Load Balancing` `Multi-cloud` `Hybrid Infrastructure` `E2E Encryption`
 
 ---
 
