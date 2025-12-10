@@ -12,21 +12,26 @@ permalink: index.html
 Self-motivated, passionate, and incredibly curious automator with **30 years of full-stack software engineering** and **22+ years of infrastructure/systems engineering experience**. I am constantly growing, evolving, and improving. My curiosity and innovation thrive on the cutting edge, but I've caused enough production outages to know when the situation calls for anchoring to the boringly-stable.
 
 ---
+### The challenge in the tech industry
 
-## What I Bring To The Table
+The industry is saturated with specialists who have followed predictable career trajectories. While deep expertise in a single domain is valuable, this has created a shortage of engineers who can bridge multiple technical disciplines; people who understand both granular implementation details and broader architectural implications. When an incident spans infrastructure, application code, and network configuration, organizations often find themselves coordinating war rooms between teams who each see only part of the picture.
 
-I bring **three decades of cross-domain expertise** spanning the entire software engineering ecosystem—from low-level systems programming and infrastructure automation to application development and enterprise architecture. This breadth enables me to identify solutions and optimize systems in ways that specialists confined to a single domain cannot.
+### Solution: engineers with cross-domain expertise
 
-I thrive in **high-pace, rapidly evolving environments** that require continual learning and absorbing large amounts of information. I really enjoy identifying abstract connections, which has served me well in time-sensitive, high-pressure situations where understanding the underlying root cause quickly can mean the difference between a minor incident and a major outage.
+The industry needs more engineers with range. I'm the engineer you bring in when the problem doesn't fit neatly into one team's Jira board.
 
----
+I am constantly growing, evolving, and improving. My curiosity and innovation thrive on the cutting edge, but I design systems to be boringly stable because I understand what breaks them. I bring more than 20 years of cross-domain expertise spanning the entire software engineering ecosystem, from low-level systems programming and infrastructure automation to application development and enterprise architecture. I resolve incidents faster because I can follow the root cause wherever it leads without waiting for handoffs to other teams. This often means the difference between a minor incident and a major outage.
 
-## My Greatest Strength
+### A feature, not a bug
 
-I have an insatiable drive to solve complex challenges. My greatest strength is not merely my current knowledge or prior experience, but my **ability to quickly grasp new concepts and learn anything** by diving into the deep end and mucking around, and then bringing order out of chaos. I come alive when given the opportunity to automate mundane, repetitive tasks and thrive in continually evolving environments or with frequent change.
+My greatest strength is not merely my current knowledge or prior experience, but my ability to quickly grasp new concepts by diving into the deep end, mucking around, and bringing order out of chaos. I've spent my career refusing to stay in one lane. 
+
+I'll be honest: I struggle with the routine maintenance period that comes after implementing a streamlined system. I can't help seeking out the next problem to solve.
+
+If you need someone to simply operate stable, predictable systems without innovation or evolution, I'm probably not your guy. But if you need someone to build those systems? To evolve them as requirements shift? To identify the next bottleneck before it becomes a 2 AM on call emergency? That's exactly where I thrive.
 
 > In my experience, in order to truly know what a tool does well, you must first understand what it does not do well.
-
+---
 
 ---
 
