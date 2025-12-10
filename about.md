@@ -8,63 +8,27 @@ eleventyNavigation:
     order: 1
 ---
 
-# About Me
+### The challenge in the tech industry
 
-**Platform Engineer | Systems Architect | SRE | Linux Evangelist**
+The industry is saturated with specialists who have followed predictable career trajectories. While deep expertise in a single domain is valuable, this has created a shortage of engineers who can bridge multiple technical disciplines; people who understand both granular implementation details and broader architectural implications. When an incident spans infrastructure, application code, and network configuration, organizations often find themselves coordinating war rooms between teams who each see only part of the picture.
 
-Self-motivated, passionate, and incredibly curious automator with **30 years of full-stack software engineering** and **22+ years of infrastructure/systems engineering experience**. I am constantly growing, evolving, and improving. My curiosity and innovation thrive on the cutting edge, but my seasoned experience anchors my solutions to the boringly-stable.
+### Solution: Engineers with cross-domain expertise
 
----
+The industry needs more engineers with range. I'm the engineer you bring in when the problem doesn't fit neatly into one team's Jira board.
 
-## The Challenge
+I am constantly growing, evolving, and improving. My curiosity and innovation thrive on the cutting edge, but I design systems to be boringly stable because I understand what breaks them. I bring more than 20 years of cross-domain expertise spanning the entire software engineering ecosystem, from low-level systems programming and infrastructure automation to application development and enterprise architecture. I resolve incidents faster because I can follow the root cause wherever it leads without waiting for handoffs to other teams. This often means the difference between a minor incident and a major outage.
 
-The industry is saturated with specialists who have followed predictable career trajectories. This has created a shortage of engineers who can bridge multiple technical domains and understand both granular technical details and broader architectural implications across traditionally siloed disciplines.
+### A Feature, Not a Bug
 
-## What I Bring
+My greatest strength is not merely my current knowledge or prior experience, but my ability to quickly grasp new concepts by diving into the deep end, mucking around, and bringing order out of chaos. I've spent my career refusing to stay in one lane. 
 
-I bring **three decades of cross-domain expertise** spanning the entire software engineering ecosystem—from low-level systems programming and infrastructure automation to application development and enterprise architecture. This breadth enables me to identify solutions and optimize systems in ways that specialists confined to a single domain cannot.
+I'll be honest: I struggle with the routine maintenance period that comes after implementing a streamlined system. I can't help seeking out the next problem to solve.
 
-I thrive in **high-pace, rapidly evolving environments** that require continual learning and absorbing large amounts of information. I really enjoy identifying abstract connections, which has served me well in time-sensitive, high-pressure situations where understanding the underlying root cause quickly can mean the difference between a minor incident and a major outage.
+If you need someone to simply operate stable, predictable systems without innovation or evolution, I'm probably not your guy. But if you need someone to build those systems? To evolve them as requirements shift? To identify the next bottleneck before it becomes a 2 AM on call emergency? That's exactly where I thrive.
 
-> In my experience, in order to truly know what a tool does well, you must first understand what it does not do well.
+Feature Quote: 
 
-## My Greatest Strength
-
-I have an insatiable drive to solve complex challenges. My greatest strength is not merely my current knowledge or prior experience, but my **ability to quickly grasp new concepts and learn anything** by diving into the deep end and mucking around, and then bringing order out of chaos. I come alive when given the opportunity to automate mundane, repetitive tasks and thrive in continually evolving environments or with frequent change.
-
-## What I Don't Do Well
-
-I struggle with the mundane, routine maintenance period that comes after implementing a streamlined, efficient system and can't help seeking out problems to solve. I'm probably not the best tool for the job if you're looking for someone to simply maintain and operate stable, predictable systems without innovation or evolution... though I would love to build them for you.
-
----
-
-## Early Career
-
-- Built my first website at **11**, on a legal pad...in my bathroom... four years after the birth of the Internet. Two years later, we got dial up.
-- At **17** I was writing **HL7** (medical data exchange) protocols, and modified/supported data entry systems built in **MS DOS**-based **FoxPro 2.1**
-- At **19** I accepted a position as **Windows** Network Administration/SysAdmin of a small office, solely responsible for 2 domain controllers (**Windows 2000**, **2003**), 11 work stations, and a **Checkpoint firewall**. *Fun fact*: I renamed the domain admin username to "Deoxyribonucleic" - obviously more secure (security through obscurity ftw)
-- Launched and ran a computer repair and IT Consulting company for **five years** (managing up to five employees at one point) named **TACC Support** (Technicians Against Computer Cruelty)
-
----
-
-## Contact Information
-
-| Method | Details |
-|--------|---------|
-| **Email** | [daniel@bodnar.sh](mailto:daniel@bodnar.sh) |
-| **Phone** | (940) 247-0019 |
-| **Location** | Denton, Texas |
-| **GitHub** | [@danielbodnar](https://github.com/danielbodnar) |
-
----
-
-## Let's Connect
-
-*Open to exciting opportunities in Platform Engineering, Cloud Architecture, Site Reliability Engineering, and Systems Design*
-
-- [View my Experience](/experience/)
-- [Download my Resume](/resume/)
-
+“In my experience, in order to truly know what a tool does well, you must first understand what it does not do well.”
 ---
 
 *References available upon request*
