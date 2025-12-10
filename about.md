@@ -26,8 +26,6 @@ I'll be honest: I struggle with the routine maintenance period that comes after 
 
 If you need someone to simply operate stable, predictable systems without innovation or evolution, I'm probably not your guy. But if you need someone to build those systems? To evolve them as requirements shift? To identify the next bottleneck before it becomes a 2 AM on call emergency? That's exactly where I thrive.
 
-Feature Quote: 
-
 “In my experience, in order to truly know what a tool does well, you must first understand what it does not do well.”
 ---
 
