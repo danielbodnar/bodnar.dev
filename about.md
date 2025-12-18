@@ -29,4 +29,3 @@ If you need someone to simply operate stable, predictable systems without innova
 > In my experience, in order to truly know what a tool does well, you must first understand what it does not do well.
 ---
 
-
