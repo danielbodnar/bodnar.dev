@@ -10,6 +10,7 @@
         "@11ty/eleventy-img": "^6.0.4",
         "@11ty/eleventy-navigation": "^1.0.4",
         "@11ty/eleventy-plugin-rss": "^2.0.4",
+        "chrome-devtools-mcp": "^0.10.2",
         "sharp": "^0.33.5",
       },
     },
@@ -124,6 +125,8 @@
     "brotli-size": ["brotli-size@4.0.0", "", { "dependencies": { "duplexer": "0.1.1" } }, "sha512-uA9fOtlTRC0iqKfzff1W34DXUA3GyVqbUaeo3Rw3d4gd1eavKVCETXrn3NzO74W+UVkG3UHu8WxUi+XvKI/huA=="],
 
     "chokidar": ["chokidar@3.6.0", "", { "dependencies": { "anymatch": "~3.1.2", "braces": "~3.0.2", "glob-parent": "~5.1.2", "is-binary-path": "~2.1.0", "is-glob": "~4.0.1", "normalize-path": "~3.0.0", "readdirp": "~3.6.0" }, "optionalDependencies": { "fsevents": "~2.3.2" } }, "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="],
+
+    "chrome-devtools-mcp": ["chrome-devtools-mcp@0.10.2", "", { "bin": { "chrome-devtools-mcp": "build/src/index.js" } }, "sha512-GvwA9Ity2tS1peVvZXTtl6DmpAPWPjKA451nb9qn9+re/v7IcchcmVIdTdOy3hCrkTbglNwPj/wwGPZ9x2IYvQ=="],
 
     "color": ["color@4.2.3", "", { "dependencies": { "color-convert": "^2.0.1", "color-string": "^1.9.0" } }, "sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A=="],
 
