@@ -201,11 +201,3 @@ International plastics manufacturing plant - Virtualized the entire US-based ope
 ### iPeople.com
 
 Provided technical advice and support to help customers leverage proprietary ODBC drivers to access an archaic database system used by hospitals (Meditech).
-
----
-
-## Related Pages
-
-- [Skills](/skills/) - Technical expertise breakdown
-- [Resume](/resume/) - Downloadable CV
-- [Tech Stacks](/tech-stacks/) - Preferred tool combinations
