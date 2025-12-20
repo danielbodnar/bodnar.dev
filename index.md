@@ -33,8 +33,6 @@ If you need someone to simply operate stable, predictable systems without innova
 > In my experience, in order to truly know what a tool does well, you must first understand what it does not do well.
 ---
 
----
-
 ## Get in Touch
 
 - [GitHub](https://github.com/danielbodnar)
@@ -48,4 +46,3 @@ If you need someone to simply operate stable, predictable systems without innova
 
 - [About Me](/about/) - Full professional profile
 - [Experience](/experience/) - Detailed work history
-- [Resume](/resume/) - Downloadable CV
