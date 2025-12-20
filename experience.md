@@ -5,7 +5,7 @@ layout: libdoc_page.liquid
 permalink: experience/index.html
 eleventyNavigation:
     key: Experience
-    order: 4
+    order: 2
 ---
 
 # Professional Experience
