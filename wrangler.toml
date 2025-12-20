@@ -1,5 +1,7 @@
 name = "daniel-bodnar-sh"
 compatibility_date = "2025-11-26"
+workers_dev = true
+preview_urls = true
 
 [assets]
 directory = "./_site/"
